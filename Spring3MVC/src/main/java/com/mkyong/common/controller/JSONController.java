@@ -18,7 +18,7 @@ public class JSONController {
 		Shop shop = new Shop();
 		shop.setName(name);
 		shop.setStaffName(new String[] { "mkyong1", "mkyong2" });
-
+        System.out.println("JSONController.getShopInJSON()");
 		return shop;
 
 	}
